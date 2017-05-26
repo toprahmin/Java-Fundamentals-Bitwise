@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LightSwitcherTest {
-    private int baseByte = 0b10101010;
+    private int baseByte =        0b10101010;
     private int flippedBaseByte = 0b01010101;
 
     @Test
