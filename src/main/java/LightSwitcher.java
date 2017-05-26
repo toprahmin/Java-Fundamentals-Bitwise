@@ -52,7 +52,7 @@ public class LightSwitcher {
      * I.E switches = 1 0 1 and switchesToFlip = 1 1 0 should return 0 1 1.
      */
     public static int flipSwitches(int switches, int switchesToFlip) {
-        return 0;
+        return switches ^ switchesToFlip;
     }
 
     /**
@@ -60,7 +60,7 @@ public class LightSwitcher {
      * NOTE: An integer has more than 8 bits, so find a way to only return the rightmost 8 bits.
      */
     public static int flipAllSwitches(int switches) {
-        return 0;
+
     }
 
     /**
